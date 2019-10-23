@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuItemBack"
+        android:icon="@drawable/left"
+        android:title="Go Back"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menuItemAdd"
+        android:icon="@drawable/add"
+        android:title="Add"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menuItemNew"
+        android:title="New"
+        android:checkable="true" />
+
+    <item android:id="@+id/menuItemOpen"
+        android:title="Open"
+        android:enabled="false" />
+
+    <item android:id="@+id/menuItemSave"
+        android:title="Save" />
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuItemMale"
+            android:title="Male" />
+        <item android:id="@+id/menuItemfemale"
+            android:title="Female" />
+    </group>
+
+    <item android:id="@+id/menuItemExit"
+        android:title="Exit" />
+</menu>
