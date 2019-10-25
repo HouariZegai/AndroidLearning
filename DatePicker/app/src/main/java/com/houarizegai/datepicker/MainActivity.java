@@ -1,4 +1,4 @@
-package com.houarizegai.timepicker;
+package com.houarizegai.datepicker;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
@@ -6,30 +6,27 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.TimePicker;
-
-import java.sql.Time;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView txtTime;
+    private TextView txtDate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtTime = findViewById(R.id.txtTime);
+        txtDate = findViewById(R.id.txtDate);
     }
 
-    public void setTime(String time) {
-        txtTime.setText(time);
+    public void setDate(String date) {
+        txtDate.setText(date);
     }
 
-    public void onChangeTime(View view) {
-        // Show time picker
+    public void onChangeDate(View view) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        TimePickerActivity popupView = new TimePickerActivity();
-        popupView.show(fragmentTransaction, null);
+
+        DatePickerActivity pickerPopView = new DatePickerActivity();
+        pickerPopView.show(fragmentTransaction, null);
     }
 }
