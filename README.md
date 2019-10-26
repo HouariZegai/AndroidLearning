@@ -1,5 +1,6 @@
-<h2 align="center">Android Projects 📱</h2>
-<p align="center">A Collection of projects & UI/UX Samples.</p>
+<h2 align="center">Android Learning 📱 :fire:</h2>
+<p align="center">A Collection of projects & UI/UX Samples was written :computer: in my learning 📖 process.
+.</p>
 <p align="center">
   <a href="https://github.com/HouariZegai/AndroidProjects/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -12,8 +13,9 @@
 ### Projects
 * [StopWatch ⌚️](StopWatch)
 * [Gallery](Gallery)
+* ..and more
 
-### Screenshoots
+### Screenshoots (Sample)
 * StopWatch
 
 Main App               | Start Stop Watch
