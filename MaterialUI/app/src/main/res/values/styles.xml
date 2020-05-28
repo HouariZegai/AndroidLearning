@@ -14,4 +14,9 @@
         <item name="mrl_rippleAlpha">0.2</item>
     </style>
 
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#EEE</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
 </resources>
