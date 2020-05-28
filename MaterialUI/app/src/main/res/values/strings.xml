@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UI Course</string>
+    <string name="register_desc">Create an account to access all features. Sign up with Twitter, Facebook or with your email address.</string>
 </resources>

@@ -61,7 +61,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp">
 
@@ -71,13 +71,14 @@
             style="@style/RippleStyleGrey">
 
             <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Register"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp"
-            android:background="@drawable/bg_btn" />
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:background="@drawable/bg_btn" />
 
         </com.balysv.materialripple.MaterialRippleLayout>
     </androidx.cardview.widget.CardView>
